@@ -1,5 +1,5 @@
 function solution(arr) {
-  const uniqueArr = new Set(arr);
+  const uniqueArr = Array.from(new Set(arr));
   uniqueArr.sort((a, b) => a - b);
   return uniqueArr;
 }
