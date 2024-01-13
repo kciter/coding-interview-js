@@ -12,9 +12,9 @@ function solution(answers) {
   const scores = [0, 0, 0];
 
   // ➌ 각 수포자의 패턴과 정답이 얼마나 일치하는지 확인
-  for (let i = 0; i < answers.length; i++) {
-    for (let j = 0; j < patterns.length; j++) {
-      if (answers[i] === patterns[j][i % patterns[j].length]) {
+  for (const [i, answer] of answers.entries()) {
+    for (const [j, pattern] of patterns.entries()) {
+      if (answer === pattern[i % pattern.length]) {
         scores[j] += 1;
       }
     }
