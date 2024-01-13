@@ -2,7 +2,7 @@
 
 function solution(board, moves) {
   // ➊ 각 열에 대한 스택을 생성합니다.
-  const lanes = [...Array(board[0].length)].map(() => []);
+  const lanes = [...new Array(board[0].length)].map(() => []);
 
   // ➋ board를 역순으로 탐색하며, 각 열의 인형을 lanes에 추가합니다.
   for (let i = board.length - 1; i >= 0; i--) {
