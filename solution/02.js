@@ -1,6 +1,6 @@
 function solution(arr) {
-  const uniqueArr = Array.from(new Set(arr));
-  uniqueArr.sort((a, b) => b - a);
+  const uniqueArr = Array.from(new Set(arr)); // ➊ 중복값 제거
+  uniqueArr.sort((a, b) => b - a); // ➋ 내림차순 정렬
   return uniqueArr;
 }
 
