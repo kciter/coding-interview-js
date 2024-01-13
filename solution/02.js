@@ -1,6 +1,6 @@
 function solution(arr) {
   const uniqueArr = Array.from(new Set(arr));
-  uniqueArr.sort((a, b) => a - b);
+  uniqueArr.sort((a, b) => b - a);
   return uniqueArr;
 }
 
