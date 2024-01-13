@@ -14,5 +14,5 @@ function solution(numbers) {
 }
 
 // TEST 코드입니다. 주석을 풀어서 실행시켜 보세요
-// console.log(solution([2, 1, 3, 4, 1])) // 반환값 : [2, 3, 4, 5, 6, 7]
-// console.log(solution([5, 0, 2, 7])) // 반환값 : [2, 5, 7, 9, 12]
+// console.log(solution([2, 1, 3, 4, 1])); // 반환값 : [2, 3, 4, 5, 6, 7]
+// console.log(solution([5, 0, 2, 7])); // 반환값 : [2, 5, 7, 9, 12]
