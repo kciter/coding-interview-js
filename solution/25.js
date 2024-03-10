@@ -31,9 +31,9 @@ function solution(orders, course) {
     }
 
     const max = Math.max(...Object.values(counter));
-    if (max > 1) { // ➍ 가장 많이 주문된 구성이 1번 이상 주문된 경우
+    if (max > 1) { // ➍ 가장 많이 주문된 구성이 2번 이상 주문된 경우
       for (const [key, value] of Object.entries(counter)) {
-        if (value === max) { // 가장 많이 주문된 구성을 찾아서
+        if (value === max) { // ➎ 가장 많이 주문된 구성을 찾아서
           answer.push(key); // ➏ 정답 리스트에 추가
         }
       }
