@@ -17,9 +17,9 @@ function isShallowEqual(object1, object2) {
 
 function solution(want, number, discount) {
   // ➊ want 리스트를 오브젝트로 변환
-  const wnatDict = {}
-  for (const w of want) {
-    wantDict[w] = (wantDict[w] || 0) + 1;
+  const wantObj = {}
+  for (let i = 0; i < want.length; i++) {
+    wantObj[want[i]] = number[i];
   }
   
   let answer = 0; // ➋ 총 일수를 계산할 변수 초기화
@@ -30,14 +30,14 @@ function solution(want, number, discount) {
 
     // ➎ i일 회원가입 시 할인받는 제품 및 개수로 오브젝트 구성
     for (let j = i; j < i + 10; j++) {
-      if (wantDict[discount[j]]) {
+      if (wantObj[discount[j]]) {
         // discount10d[discount[j]]가 비어있다면 0으로 기본값 설정
         discount10d[discount[j]] = (discount10d[discount[j]] || 0) + 1;
       }
     }
 
     // ➏ 할인하는 상품의 개수가 원하는 수량과 일치하면 정답 변수에 1 추가
-    if (isShallowEqual(discount10d, wantDict)) {
+    if (isShallowEqual(discount10d, wantObj)) {
       answer += 1;
     }
   }
