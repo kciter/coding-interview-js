@@ -8,6 +8,14 @@ class Queue {
     this.rear++;
   }
 
+  first() {
+    return this.items[this.front];
+  }
+
+  last() {
+    return this.items[this.rear - 1];
+  }
+
   pop() {
     return this.items[this.front++];
   }
@@ -28,7 +36,8 @@ console.log(queue.pop()); // 2
 
 queue.push(4);
 
-console.log(queue.items[0]); // 1
+console.log(queue.first()); // 3
+console.log(queue.last()); // 4
 console.log(queue.isEmpty()); // false
 
 console.log(queue.pop()); // 3
