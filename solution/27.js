@@ -63,17 +63,17 @@ class BST {
   }
 }
 
-// ➐ lst에 있는 데이터를 활용해서 이진 탐색 트리 생성, search_lst 원소 탐색
-function solution(lst, search_lst) {
+// ➐ list에 있는 데이터를 활용해서 이진 탐색 트리 생성, searchList 원소 탐색
+function solution(list, searchList) {
   const bst = new BST();
   // 리스트의 각 요소를 이용하여 이진 탐색 트리 생성
-  for (const key of lst) {
+  for (const key of list) {
     bst.insert(key);
   }
   const result = [];
   // 검색 리스트의 각 요소를 이진 탐색 트리에서 검색하고, 검색 결과를 리스트에 추가
-  for (const search_val of search_lst) {
-    if (bst.search(search_val)) {
+  for (const searchVal of searchList) {
+    if (bst.search(searchVal)) {
       result.push(true);
     } else {
       result.push(false);
