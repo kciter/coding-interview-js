@@ -17,7 +17,6 @@ class Queue {
   }
 }
 
-
 // ➊ 이동 가능한 좌표인지 판단하는 함수
 function isValidMove(ny, nx, n, m, maps) {
   return 0 <= ny && ny < n && 0 <= nx && nx < m && maps[ny][nx] !== 'X';
