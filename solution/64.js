@@ -40,18 +40,19 @@ function solution(n) {
       }
       startCol += 1;
     }
-
-    return snailArray;
+  }
+  
+  return snailArray;
 }
 
-console.log(solution(3))
+console.log(solution(3));
 // [
 //   [1, 2, 3],
 //   [8, 9, 4],
 //   [7, 6, 5]
 // ]
 
-console.log(solution(4))
+console.log(solution(4));
 // [
 //   [1, 2, 3, 4],
 //   [12, 13, 14, 5],
