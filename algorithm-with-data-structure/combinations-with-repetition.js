@@ -5,7 +5,7 @@ function combinationsWithRepetition(arr, n) {
 
   // 요소를 순환
   arr.forEach((fixed, idx, arr) => {
-    // 현재 index 이후 요소를 추출
+    // 현재 index를 포함한 요소를 추출
     // index번째는 선택된 요소
     const rest = arr.slice(idx);
     // 선택된 요소 이전 요소들을 제외하고 재귀 호출
