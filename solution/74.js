@@ -24,3 +24,17 @@ function solution(n) {
   // ➏ 바닥의 가로 길이가 n일 때 바닥을 채우는 방법의 수인 dp[n]을 반환
   return dp[n];
 }
+
+
+// function solution(n) {
+//   let a = 1;
+//   let b = 2;
+  
+//   for (let i = 2; i < n; i += 1) {
+//     const temp = b;
+//     b = (a + b) % 1000000007;
+//     a = temp;
+//   }
+  
+//   return b;
+// }
