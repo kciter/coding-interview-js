@@ -7,7 +7,7 @@ class MinHeap {
     return this.items.length;
   }
 
-  insert(item) {
+  push(item) {
     this.items.push(item);
     this.bubbleUp();
   }
@@ -62,17 +62,17 @@ class MinHeap {
 }
 
 const heap = new MinHeap();
-heap.insert(5);
-heap.insert(3);
-heap.insert(10);
-heap.insert(1);
+heap.push(5);
+heap.push(3);
+heap.push(10);
+heap.push(1);
 
 console.log(heap.pop()); // 1
 console.log(heap.pop()); // 3
 console.log(heap.pop()); // 5
 
-heap.insert(2);
-heap.insert(4);
+heap.push(2);
+heap.push(4);
 
 console.log(heap.pop()); // 2
 console.log(heap.pop()); // 4
