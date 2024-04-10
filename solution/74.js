@@ -1,4 +1,4 @@
-functino solution(n) {
+function solution(n) {
   // ➊ 바닥의 가로 길이가 1인 경우, 바닥을 채우는 방법의 수는 1
   if (n === 1) {
     return 1;
