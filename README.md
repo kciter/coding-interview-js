@@ -1,7 +1,14 @@
-# 코딩 테스트 합격자 되기(자바스크립트 편)
+# 안녕하세요? 독자 여러분! 이선협 저자입니다.
+여기는 [〈코딩 테스트 합격자 되기〉(파이썬 편)](https://github.com/dremdeveloper/codingtest_python)으로 시작한 도서의 자바스크립트 편을 위한 깃허브 레포입니다.<br>
+이 도서는 코딩 테스트를 위한 자바스크립트 문법 리마인드와 함께 코딩 테스트 필수 자료구조 알고리즘 지식을 코드 + 그림과 함께 풀어낸 책입니다.<br>
+이 책의 구성은 다음과 같습니다.<br>
+
 - 프로그래머스에서 엄선한 기출 문제에 대한 상세한 풀이 제공
 - 들고 다닐 수 있는 요약 노트 제공
 - 실전 문제 위주로 출제된 기출 문제 5회분 제공(회당 3 문제)
+
+<img width="800" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/7ad959f3-3b7d-4150-b7b8-3316f2c6bbda">
+<img width="800" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/108f2c28-289a-45a4-8fc6-369881880319">
 
 ## 📖 도서 구매 링크
 - Yes24 :
