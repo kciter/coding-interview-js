@@ -1,4 +1,4 @@
-<img width="2198" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/3fd5d337-6d31-4e5c-9b83-f99c1dccd1ff"># 안녕하세요? 독자 여러분! 이선협 저자입니다.
+# 안녕하세요? 독자 여러분! 이선협 저자입니다.
 이 도서는 코딩 테스트를 위한 자바스크립트 문법 리마인드와 함께 코딩 테스트 필수 자료구조 알고리즘 지식을 코드 + 그림과 함께 풀어낸 책입니다.<br>
 이 책은 
 - [〈코딩 테스트 합격자 되기〉(파이썬 편)](https://github.com/dremdeveloper/codingtest_python)
