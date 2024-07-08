@@ -18,9 +18,10 @@
 <img width="250" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/3b71fcbf-6dda-4632-bd4b-5110882d81bd">
 
 ## 📖 도서 구매 링크
-- Yes24 :
-- 교보문고 :
-- 알라딘 :
+- Yes24 : https://m.yes24.com/Goods/Detail/128182419
+- 교보문고 : https://product.kyobobook.co.kr/detail/S000213641007
+- 알라딘 : http://aladin.kr/p/EqbOm
+- 인터파크: https://book.interpark.com/product/BookDisplay.do?_method=Detail&sc.prdNo=356949391
 - 리디북스(Ebook) : 
 
 <img width="500" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/0436f120-1a5e-424c-bc43-d35cf8893b43">
