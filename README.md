@@ -33,3 +33,9 @@
 <img width="200" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/14be16dc-3308-443c-8921-277c4031a18e">
 <img width="500" alt="image" src="https://github.com/kciter/coding-interview-js/assets/16553217/d5f76595-d57d-45bb-b874-79c7382f0940">
 
+# 오탈자
+## p160
+```diff
+-참고로 괄호 쌍을 확인할 때 append() 메서드와 pop() 메서드의 시간 복잡도는 O(1)입니다.
++참고로 괄호 쌍을 확인할 때 push() 메서드와 pop() 메서드의 시간 복잡도는 O(1)입니다.
+```
